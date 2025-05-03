@@ -24,7 +24,7 @@ export default function WelcomeSection() {
 				<div className="flex flex-col w-full h-full relative">
 					<div className="flex items-center justify-center flex-1"></div>
 					<div className="flex flex-col items-center justify-center flex-none">
-						<div className="">*VALID FOR THE NAME WRITTEN ONLY</div>
+						<div className="my-3">*VALID FOR THE NAME WRITTEN ONLY</div>
 						<div className="px-6 py-4 bg-[#290032] rounded-lg text-white font-bold mb-3">
 							{cleanGuestName}
 						</div>
