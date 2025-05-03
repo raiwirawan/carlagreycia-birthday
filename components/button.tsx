@@ -29,7 +29,7 @@ export default function Button({
 			href={href}
 			onClick={handleClick}
 			className={cn(
-				"py-3 px-6 bg-[#ff4a99] hover:bg-[#b565a7] rounded",
+				"py-3 px-6 bg-[#ff4a99] hover:bg-[#b565a7] rounded inline-block",
 				className
 			)}
 		>
