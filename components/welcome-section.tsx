@@ -14,7 +14,7 @@ export default function WelcomeSection() {
 							className="uppercase rounded-full"
 						/>
 					</div>
-					<div className="flex flex-row items-center justify-center flex-none">
+					<div className="flex flex-col lg:flex-row items-center justify-center flex-none">
 						<div className="uppercase px-4">#CARLAGREYSHOW</div>
 						<div className="px-4">
 							<Countdown date="2025-05-12" time="17:00" />
