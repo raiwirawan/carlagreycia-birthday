@@ -22,7 +22,7 @@ export default function WelcomeSection() {
 					</div>
 				</div>
 			</div>
-			<PlayMusicButton />
+			<PlayMusicButton src="/tiara_andini_kupu_kupu.mp3" />
 		</div>
 	);
 }
