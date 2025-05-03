@@ -1,25 +1,11 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
+import { useAudio } from "@/lib/audio-context";
 
-export default function PlayMusicButton({ src }: { src: string }) {
-	const [isPlaying, setIsPlaying] = useState(false);
+export default function PlayMusicButton() {
+	const { isPlaying, togglePlay } = useAudio();
 	const [isBouncing, setIsBouncing] = useState(false);
-	const audioRef = useRef<HTMLAudioElement | null>(null);
-
-	// Toggle play state
-	const togglePlay = () => {
-		if (audioRef.current) {
-			if (isPlaying) {
-				audioRef.current.pause();
-			} else {
-				audioRef.current.play().catch((error) => {
-					console.error("Playback failed:", error);
-				});
-			}
-			setIsPlaying(!isPlaying);
-		}
-	};
 
 	// Bounce animation effect
 	useEffect(() => {
@@ -87,8 +73,6 @@ export default function PlayMusicButton({ src }: { src: string }) {
 			<div className="absolute -top-8 right-0 text-xs font-medium text-gray-700 bg-white px-2 py-1 rounded shadow-sm">
 				{isPlaying ? "Now Playing" : "Play Music"}
 			</div>
-
-			<audio ref={audioRef} src={src} loop />
 		</div>
 	);
 }
