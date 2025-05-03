@@ -14,7 +14,7 @@ export default function VenueSection() {
 					/>
 				</div>
 				<div className="relative flex items-center justify-center flex-col lg:flex-row z-10 text-center text-yellow-300">
-					<div className="my-3">
+					<div className="my-3 lg:mx-4">
 						<Image
 							src={"/venue/the_gate.webp"}
 							height={150}
@@ -23,7 +23,7 @@ export default function VenueSection() {
 							className="rounded-2xl"
 						/>
 					</div>
-					<div className="my-3">
+					<div className="my-3 lg:mx-4">
 						<Image
 							src={"/venue/red_carpet_indoor.jpg"}
 							height={150}
@@ -32,7 +32,7 @@ export default function VenueSection() {
 							className="rounded-2xl"
 						/>
 					</div>
-					<div className="my-3">
+					<div className="my-3 lg:mx-4">
 						<Image
 							src={"/venue/hrcb-frontview.jpg"}
 							height={150}
@@ -41,7 +41,7 @@ export default function VenueSection() {
 							className="rounded-2xl"
 						/>
 					</div>
-					<div className="my-3">
+					<div className="my-3 lg:mx-4">
 						<Image
 							src={"/venue/panggung.jpg"}
 							height={150}
