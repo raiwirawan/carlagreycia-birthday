@@ -19,7 +19,7 @@ export default function WelcomeSection() {
 	});
 
 	return (
-		<div className="w-full h-screen flex items-center justify-center relative bg-[url('/very_newest_cropped.jpg')] bg-cover bg-center">
+		<div className="w-full h-screen flex items-center justify-center relative bg-[url('/very_newest_cropped.webp')] bg-cover bg-center">
 			<div className="container mx-auto w-full h-full px-5 py-10 flex items-center justify-center">
 				<div className="flex flex-col w-full h-full relative">
 					<div className="flex items-center justify-center flex-1"></div>

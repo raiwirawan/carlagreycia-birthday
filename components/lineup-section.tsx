@@ -7,7 +7,7 @@ export default function LineupSecion() {
 		<section className="relative flex min-h-screen flex-col items-center justify-start p-4">
 			<div className="mt-10">
 				<Image
-					src={"/the_line_up.png"}
+					src={"/the_line_up.webp"}
 					width={400}
 					height={200}
 					alt="Line Up Section Title"
@@ -23,7 +23,7 @@ export default function LineupSecion() {
 			/>
 			<div className="relative flex items-center justify-center flex-col z-10 text-center text-white">
 				<Image
-					src={"/lineup_presents.png"}
+					src={"/lineup_presents.webp"}
 					width={400}
 					height={200}
 					alt="Line Presents People"

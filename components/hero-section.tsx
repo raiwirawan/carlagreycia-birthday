@@ -6,7 +6,7 @@ export default function HeroSection() {
 		<section className="relative flex min-h-screen flex-col items-center justify-start p-4">
 			<div className="mb-10">
 				<Image
-					src={"/the_invitation.png"}
+					src={"/the_invitation.webp"}
 					width={400}
 					height={200}
 					alt="The Invitation Title Image"

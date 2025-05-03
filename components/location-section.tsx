@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function LocationSection() {
 	return (
-		<section className="relative flex min-h-screen flex-col items-center justify-start p-4 bg-[url('/city.jpg')] bg-center bg-cover">
+		<section className="relative flex min-h-screen flex-col items-center justify-start p-4 bg-[url('/city.webp')] bg-center bg-cover">
 			<div className="mt-10 mb-2">
 				<Image
-					src={"/map_direction.png"}
+					src={"/map_direction.webp"}
 					width={400}
 					height={200}
 					alt="Rundown Title Image"

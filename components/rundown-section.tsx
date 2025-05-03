@@ -3,10 +3,10 @@ import Countdown from "./countdown";
 
 export default function RundownSection() {
 	return (
-		<section className="relative flex min-h-screen flex-col items-center justify-start p-4 bg-[url('/city.jpg')] bg-center bg-cover">
+		<section className="relative flex min-h-screen flex-col items-center justify-start p-4 bg-[url('/city.webp')] bg-center bg-cover">
 			<div className="mt-10 mb-2">
 				<Image
-					src={"/rundown_carlagreyshow.png"}
+					src={"/rundown_carlagreyshow.webp"}
 					width={400}
 					height={200}
 					alt="Rundown Title Image"
