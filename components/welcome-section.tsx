@@ -24,15 +24,15 @@ export default function WelcomeSection() {
 				<div className="flex flex-col w-full h-full relative">
 					<div className="flex items-center justify-center flex-1"></div>
 					<div className="flex flex-col items-center justify-center flex-none">
-						<div className="my-3">*VALID FOR THE NAME WRITTEN ONLY</div>
 						<div className="px-6 py-4 bg-[#290032] rounded-lg text-white font-bold mb-3">
 							{cleanGuestName}
 						</div>
 						<Button
 							text={"OPEN INVITATION"}
 							href="/rundown"
-							className="uppercase rounded-full mb-10"
+							className="uppercase rounded-full mb-2"
 						/>
+						<div className="mt-1 mb-3">*VALID FOR THE NAME WRITTEN ONLY</div>
 						<div className="flex flex-col lg:flex-row items-center justify-center">
 							<div className="uppercase px-4">#CARLAGREYSHOW</div>
 							<div className="px-4">
