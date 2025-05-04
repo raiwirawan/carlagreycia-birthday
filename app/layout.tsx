@@ -12,6 +12,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
 	title: "Carla Greycia's Exclusive Sweet 17 Party Experience | Carla Greycia",
 	description: "A Sweet 17 Birth Day Website",
+	icons: {
+		icon: "/carla_icon_microsize.ico",
+	},
 };
 
 export default function RootLayout({
