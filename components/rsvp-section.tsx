@@ -21,7 +21,7 @@ export default function RsvpSection() {
 				<div>
 					<Button
 						text={"RSVP HERE"}
-						href="https://wa.me/6287871161346?text=Halo%20Sugi,%20I%27m%20ready%20to%20come"
+						href="https://wa.me/6287859535115?text=Halo+Carla,+I'm+ready+to+come+to+your+%23CarlaGreyShow+Sweet+Seventeen+Party!"
 						className="rounded-full"
 					/>
 				</div>
